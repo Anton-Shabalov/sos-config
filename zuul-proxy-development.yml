@@ -15,8 +15,8 @@ eureka:
 zuul:
   routes:
     agency-service:
-      path: /defiant-server/**
-      serviceId: defiant-server
+      path: /isu-app/**
+      serviceId: isu-app
   okhttp:
     enabled: true
   ignoredServices: '*'
